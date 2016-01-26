@@ -1,0 +1,1456 @@
+a:6:{s:6:"config";a:4:{s:10:"phpVersion";s:29:"7.0.1-1+deb.sury.org~trusty+2";s:10:"yiiVersion";s:6:"1.1.16";s:11:"application";a:4:{s:3:"yii";s:6:"1.1.16";s:4:"name";s:5:"Yupe!";s:8:"timezone";s:3:"UTC";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:29:"7.0.1-1+deb.sury.org~trusty+2";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}}s:7:"request";a:13:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:0:{}s:15:"responseHeaders";a:4:{s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:10:"Set-Cookie";a:2:{i:0;s:74:"language=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/";i:1;s:76:"language=67811ce2d11f183d04dfa8ffe9cd8f9898f6afd1s%3A2%3A%22ru%22%3B; path=/";}}s:5:"route";s:29:"install/default/moduleinstall";s:6:"action";s:40:"DefaultController::actionModuleinstall()";s:12:"actionParams";a:1:{s:4:"name";s:4:"page";}s:6:"SERVER";a:33:{s:4:"USER";s:7:"vagrant";s:4:"HOME";s:13:"/home/vagrant";s:11:"HTTP_COOKIE";s:217:"PHPSESSID=n08ruvhq2ljr6c80phfmt2ab82; YUPE_TOKEN=f48ff53916d5cfb56014c8cf856c937785b585fes%3A40%3A%22c9f1b1a7fac71ae432c7f50cbe5ce0feb7a3648a%22%3B; language=67811ce2d11f183d04dfa8ffe9cd8f9898f6afd1s%3A2%3A%22ru%22%3B";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:12:"HTTP_REFERER";s:55:"http://gidrodinamika.app/install/default/modulesinstall";s:15:"HTTP_USER_AGENT";s:109:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:11:"HTTP_ACCEPT";s:46:"application/json, text/javascript, */*; q=0.01";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:9:"HTTP_HOST";s:17:"gidrodinamika.app";s:15:"REDIRECT_STATUS";s:3:"200";s:11:"SERVER_NAME";s:17:"gidrodinamika.app";s:11:"SERVER_PORT";s:2:"80";s:11:"SERVER_ADDR";s:13:"192.168.10.10";s:11:"REMOTE_PORT";s:5:"49925";s:11:"REMOTE_ADDR";s:12:"192.168.10.1";s:15:"SERVER_SOFTWARE";s:11:"nginx/1.9.7";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:13:"DOCUMENT_ROOT";s:46:"/home/vagrant/project/gidrodinamika.app/public";s:12:"DOCUMENT_URI";s:10:"/index.php";s:11:"REQUEST_URI";s:40:"/install/default/moduleinstall?name=page";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:56:"/home/vagrant/project/gidrodinamika.app/public/index.php";s:14:"CONTENT_LENGTH";s:0:"";s:12:"CONTENT_TYPE";s:0:"";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:9:"name=page";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1453814915.457794;s:12:"REQUEST_TIME";i:1453814915;}s:3:"GET";a:1:{s:4:"name";s:4:"page";}s:4:"POST";a:0:{}s:6:"COOKIE";a:3:{s:9:"PHPSESSID";s:26:"n08ruvhq2ljr6c80phfmt2ab82";s:10:"YUPE_TOKEN";s:88:"f48ff53916d5cfb56014c8cf856c937785b585fes:40:"c9f1b1a7fac71ae432c7f50cbe5ce0feb7a3648a";";s:8:"language";s:49:"67811ce2d11f183d04dfa8ffe9cd8f9898f6afd1s:2:"ru";";}s:5:"FILES";a:0:{}s:7:"SESSION";a:3:{s:40:"2cf64f2f15c41703983c04b356617c84language";s:2:"ru";s:11:"InstallForm";a:10:{s:13:"indexFinished";b:1;s:19:"environmentFinished";b:1;s:20:"requirementsFinished";b:1;s:10:"dbSettings";a:20:{s:4:"host";s:9:"127.0.0.1";s:4:"port";s:4:"3306";s:6:"socket";s:0:"";s:6:"dbName";s:13:"gidrodinamika";s:8:"createDb";s:1:"0";s:6:"dbUser";s:13:"gidrodinamika";s:10:"dbPassword";s:13:"gidrodinamika";s:11:"tablePrefix";s:5:"yupe_";s:6:"dbType";s:1:"1";s:8:"userName";N;s:12:"userPassword";N;s:9:"cPassword";N;s:9:"userEmail";N;s:8:"siteName";s:7:"Юпи!";s:15:"siteDescription";s:82:"Юпи! - самый простой способ создать сайт на Yii!";s:12:"siteKeyWords";s:26:"Юпи!, yupe, цмс, yii";s:9:"siteEmail";N;s:5:"theme";s:7:"default";s:12:"backendTheme";s:0:"";s:5:"email";N;}s:14:"dbSettingsStep";b:0;s:14:"dbSettingsFile";b:1;s:18:"dbsettingsFinished";b:1;s:15:"moduleToInstall";a:14:{s:10:"YUPE_TOKEN";s:40:"c9f1b1a7fac71ae432c7f50cbe5ce0feb7a3648a";s:11:"module_blog";s:1:"1";s:15:"module_category";s:1:"1";s:14:"module_comment";s:1:"1";s:19:"module_contentblock";s:1:"1";s:15:"module_feedback";s:1:"1";s:15:"module_homepage";s:1:"1";s:12:"module_image";s:1:"1";s:11:"module_mail";s:1:"1";s:11:"module_menu";s:1:"1";s:11:"module_news";s:1:"1";s:11:"module_page";s:1:"1";s:11:"module_user";s:1:"1";s:11:"module_yupe";s:1:"1";}s:18:"modulesInstallStep";b:0;s:22:"modulesinstallFinished";b:1;}s:40:"84af25fef683edd6db1f3a91f83da64elanguage";s:2:"ru";}}s:3:"log";a:1:{s:8:"messages";a:198:{i:0;a:4:{i:0;s:221:"Loading "urlManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814915.685555;}i:1;a:4:{i:0;s:359:"Loading "yupe" module
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LangUrlManager.php (85)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LangUrlManager.php (39)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453814915.6955359;}i:2;a:4:{i:0;s:317:"Loading "db" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1031)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814915.7154689;}i:3;a:4:{i:0;s:304:"Opening DB connection
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1031)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:23:"system.db.CDbConnection";i:3;d:1453814915.7217071;}i:4;a:4:{i:0;s:526:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814915.7968509;}i:5;a:4:{i:0;s:320:"Loading "cache" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814915.796895;}i:6;a:4:{i:0;s:630:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814915.8244891;}i:7;a:4:{i:0;s:330:"Saving "Yii.CUrlManager.rules" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LangUrlManager.php (59)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814915.849561;}i:8;a:4:{i:0;s:102:"Loading "debug" application component
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814915.8785529;}i:9;a:4:{i:0;s:330:"Loading "log" application component
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814915.935981;}i:10;a:4:{i:0;s:315:"Loading "request" application component
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814915.9652269;}i:11;a:4:{i:0;s:106:"Loading "bootstrap" application component
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814915.975471;}i:12;a:4:{i:0;s:321:"Loading "clientScript" application component
+in /home/vagrant/project/gidrodinamika.app/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/vagrant/project/gidrodinamika.app/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814915.9948139;}i:13;a:4:{i:0;s:362:"Loading "assetManager" application component
+in /home/vagrant/project/gidrodinamika.app/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/vagrant/project/gidrodinamika.app/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/vagrant/project/gidrodinamika.app/vendor/clevertech/yii-booster/src/components/Booster.php (260)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.008822;}i:14;a:4:{i:0;s:389:"Loading "securityManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.0370221;}i:15;a:4:{i:0;s:388:"Loading "statePersister" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.0407071;}i:16;a:4:{i:0;s:447:"Saving "Yii.CStatePersister./home/vagrant/project/gidrodinamika.app/protected/runtime/state.bin" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.0718811;}i:17;a:4:{i:0;s:330:"Loading "user" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.095242;}i:18;a:4:{i:0;s:333:"Loading "session" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.1118541;}i:19;a:4:{i:0;s:89:"Loading "install" module
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453814916.11798;}i:20;a:4:{i:0;s:327:"Loading "bootstrap" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/controllers/BackController.php (72)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.181735;}i:21;a:4:{i:0;s:326:"Loading "messages" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/controllers/BackController.php (75)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.183912;}i:22;a:4:{i:0;s:330:"Loading "errorHandler" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/controllers/BackController.php (78)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.2055991;}i:23;a:4:{i:0;s:330:"Loading "eventManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/controllers/BackController.php (81)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.2142689;}i:24;a:4:{i:0;s:188:"Flushing cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (100)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.2811091;}i:25;a:4:{i:0;s:219:"Loading "moduleManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.322099;}i:26;a:4:{i:0;s:320:"Loading "configManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (261)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814916.3352549;}i:27;a:4:{i:0;s:332:"Loading "blog" module
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (350)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453814916.360424;}i:28;a:4:{i:0;s:526:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/blog/BlogModule.php (274)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.3666329;}i:29;a:4:{i:0;s:630:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"blog";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/blog/BlogModule.php (274)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.3694689;}i:30;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.4011469;}i:31;a:4:{i:0;s:538:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/callback/CallbackModule.php (210)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.4212971;}i:32;a:4:{i:0;s:642:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"callback";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/callback/CallbackModule.php (210)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.4233539;}i:33;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.4540541;}i:34;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.4608049;}i:35;a:4:{i:0;s:526:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/cart/CartModule.php (129)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.4804189;}i:36;a:4:{i:0;s:630:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"cart";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/cart/CartModule.php (129)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.48349;}i:37;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.5100069;}i:38;a:4:{i:0;s:336:"Loading "category" module
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (350)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453814916.5133269;}i:39;a:4:{i:0;s:538:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/category/CategoryModule.php (182)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.5200579;}i:40;a:4:{i:0;s:642:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"category";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/category/CategoryModule.php (182)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.5224371;}i:41;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.5474501;}i:42;a:4:{i:0;s:335:"Loading "comment" module
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (350)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453814916.552932;}i:43;a:4:{i:0;s:535:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/comment/CommentModule.php (250)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.611032;}i:44;a:4:{i:0;s:639:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:7:"comment";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/comment/CommentModule.php (250)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.6129601;}i:45;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.6399839;}i:46;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.6469779;}i:47;a:4:{i:0;s:549:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/contentblock/ContentBlockModule.php (99)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.6650801;}i:48;a:4:{i:0;s:654:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:12:"contentblock";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/contentblock/ContentBlockModule.php (99)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.669174;}i:49;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.695962;}i:50;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.703438;}i:51;a:4:{i:0;s:532:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/coupon/CouponModule.php (126)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.721993;}i:52;a:4:{i:0;s:636:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:6:"coupon";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/coupon/CouponModule.php (126)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.7241631;}i:53;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.753319;}i:54;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.759609;}i:55;a:4:{i:0;s:538:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/delivery/DeliveryModule.php (126)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.7800369;}i:56;a:4:{i:0;s:642:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"delivery";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/delivery/DeliveryModule.php (126)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.783854;}i:57;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.8096111;}i:58;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.8156819;}i:59;a:4:{i:0;s:544:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/dictionary/DictionaryModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.83566;}i:60;a:4:{i:0;s:649:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:10:"dictionary";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/dictionary/DictionaryModule.php (130)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.837887;}i:61;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.8634861;}i:62;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.8710649;}i:63;a:4:{i:0;s:540:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (361)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.8895249;}i:64;a:4:{i:0;s:644:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"docs";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (361)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.8917279;}i:65;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.9194391;}i:66;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.9246809;}i:67;a:4:{i:0;s:537:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/favorite/FavoriteModule.php (18)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814916.944823;}i:68;a:4:{i:0;s:641:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"favorite";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/favorite/FavoriteModule.php (18)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.94806;}i:69;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.9752181;}i:70;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814916.9808569;}i:71;a:4:{i:0;s:538:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/feedback/FeedbackModule.php (345)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.0016329;}i:72;a:4:{i:0;s:642:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"feedback";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/feedback/FeedbackModule.php (345)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.0039079;}i:73;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.03005;}i:74;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.036685;}i:75;a:4:{i:0;s:535:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/gallery/GalleryModule.php (119)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.055207;}i:76;a:4:{i:0;s:639:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:7:"gallery";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/gallery/GalleryModule.php (119)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.0575571;}i:77;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.0866749;}i:78;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.092274;}i:79;a:4:{i:0;s:538:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/homepage/HomepageModule.php (222)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.1126189;}i:80;a:4:{i:0;s:642:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"homepage";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/homepage/HomepageModule.php (222)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.1146071;}i:81;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.1434779;}i:82;a:4:{i:0;s:333:"Loading "image" module
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (350)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453814917.1482611;}i:83;a:4:{i:0;s:529:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/image/ImageModule.php (298)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.1543951;}i:84;a:4:{i:0;s:633:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:5:"image";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/image/ImageModule.php (298)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.1567659;}i:85;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.1831219;}i:86;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.19151;}i:87;a:4:{i:0;s:332:"Loading "mail" module
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (350)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453814917.19554;}i:88;a:4:{i:0;s:526:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/mail/MailModule.php (180)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.202224;}i:89;a:4:{i:0;s:630:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"mail";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/mail/MailModule.php (180)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.2051711;}i:90;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.230998;}i:91;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.2381189;}i:92;a:4:{i:0;s:526:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/menu/MenuModule.php (146)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.2578471;}i:93;a:4:{i:0;s:630:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"menu";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/menu/MenuModule.php (146)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.260493;}i:94;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.289156;}i:95;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.296124;}i:96;a:4:{i:0;s:526:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/news/NewsModule.php (301)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.317256;}i:97;a:4:{i:0;s:630:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"news";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/news/NewsModule.php (301)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.3203011;}i:98;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.348913;}i:99;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.3545079;}i:100;a:4:{i:0;s:531:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/notify/NotifyModule.php (38)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.3737049;}i:101;a:4:{i:0;s:635:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:6:"notify";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/notify/NotifyModule.php (38)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.376039;}i:102;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.40429;}i:103;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.4105461;}i:104;a:4:{i:0;s:529:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/order/OrderModule.php (214)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.4295981;}i:105;a:4:{i:0;s:633:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:5:"order";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/order/OrderModule.php (214)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.431464;}i:106;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.4594619;}i:107;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.4655399;}i:108;a:4:{i:0;s:526:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/page/PageModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.487155;}i:109;a:4:{i:0;s:630:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"page";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/page/PageModule.php (130)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.489315;}i:110;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.5139239;}i:111;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.520705;}i:112;a:4:{i:0;s:535:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/payment/PaymentModule.php (132)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.539746;}i:113;a:4:{i:0;s:639:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:7:"payment";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/payment/PaymentModule.php (132)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.5422151;}i:114;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.571032;}i:115;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.57707;}i:116;a:4:{i:0;s:529:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/queue/QueueModule.php (117)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.596046;}i:117;a:4:{i:0;s:633:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:5:"queue";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/queue/QueueModule.php (117)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.5992701;}i:118;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.6274929;}i:119;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.633739;}i:120;a:4:{i:0;s:525:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/rbac/RbacModule.php (27)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.654335;}i:121;a:4:{i:0;s:629:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"rbac";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/rbac/RbacModule.php (27)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.656527;}i:122;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.68186;}i:123;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.689491;}i:124;a:4:{i:0;s:541:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/robokassa/RobokassaModule.php (116)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.7086899;}i:125;a:4:{i:0;s:645:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:9:"robokassa";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/robokassa/RobokassaModule.php (116)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.7111161;}i:126;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.739753;}i:127;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.7454939;}i:128;a:4:{i:0;s:534:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/sitemap/SitemapModule.php (98)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.7654409;}i:129;a:4:{i:0;s:638:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:7:"sitemap";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/sitemap/SitemapModule.php (98)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.768034;}i:130;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.795696;}i:131;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.801739;}i:132;a:4:{i:0;s:532:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/social/SocialModule.php (137)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.8216391;}i:133;a:4:{i:0;s:636:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:6:"social";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/social/SocialModule.php (137)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.824065;}i:134;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.851115;}i:135;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.8578041;}i:136;a:4:{i:0;s:529:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/store/StoreModule.php (372)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.8765171;}i:137;a:4:{i:0;s:633:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:5:"store";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/store/StoreModule.php (372)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.879494;}i:138;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.9068589;}i:139;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.9135151;}i:140;a:4:{i:0;s:532:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/update/UpdateModule.php (118)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.9338479;}i:141;a:4:{i:0;s:636:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:6:"update";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/update/UpdateModule.php (118)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.935765;}i:142;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.9614699;}i:143;a:4:{i:0;s:332:"Loading "user" module
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (350)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453814917.965066;}i:144;a:4:{i:0;s:526:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/user/UserModule.php (346)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814917.971734;}i:145;a:4:{i:0;s:630:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"user";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/user/UserModule.php (346)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.9739871;}i:146;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814917.999615;}i:147;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.006654;}i:148;a:4:{i:0;s:550:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yandexmarket/YandexMarketModule.php (137)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.0256319;}i:149;a:4:{i:0;s:655:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:12:"yandexmarket";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yandexmarket/YandexMarketModule.php (137)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.0285721;}i:150;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.0555279;}i:151;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.061131;}i:152;a:4:{i:0;s:547:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yandexmoney/YandexMoneyModule.php (116)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.0803101;}i:153;a:4:{i:0;s:652:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:11:"yandexmoney";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yandexmoney/YandexMoneyModule.php (116)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.083818;}i:154;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.111599;}i:155;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.1196091;}i:156;a:4:{i:0;s:339:"Saving "tmpImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.1255929;}i:157;a:4:{i:0;s:544:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/zendsearch/ZendSearchModule.php (109)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.145108;}i:158;a:4:{i:0;s:649:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:10:"zendsearch";s:5:":type";i:1;}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/zendsearch/ZendSearchModule.php (109)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.1471691;}i:159;a:4:{i:0;s:306:"Serving "tmpImports" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.1738429;}i:160;a:4:{i:0;s:308:"Saving "modulesDisabled" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (319)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.1981399;}i:161;a:4:{i:0;s:307:"Saving "pathForImports" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/ModuleManager.php (320)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (916)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.2408681;}i:162;a:4:{i:0;s:317:"Flushing cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (681)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (802)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (936)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.2877591;}i:163;a:4:{i:0;s:395:"page->installDB() : Запрошена установка БД модуля Страницы
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (838)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (802)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (936)";i:1;s:4:"info";i:2;s:11:"application";i:3;d:1453814918.501652;}i:164;a:4:{i:0;s:351:"Saving "__tag__installedModules" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TaggingCacheBehavior.php (29)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (842)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (802)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.5017359;}i:165;a:4:{i:0;s:433:"Для модуля page сначала будет установлена база модуля user как зависимость
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (853)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (802)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (936)";i:1;s:4:"info";i:2;s:11:"application";i:3;d:1453814918.5283091;}i:166;a:4:{i:0;s:391:"user->installDB() : Запрошена установка БД модуля Пользователи
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (838)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (802)";i:1;s:4:"info";i:2;s:11:"application";i:3;d:1453814918.5391059;}i:167;a:4:{i:0;s:351:"Saving "__tag__installedModules" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TaggingCacheBehavior.php (29)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (842)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.5391901;}i:168;a:4:{i:0;s:331:"Loading "migrator" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (890)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (802)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453814918.563149;}i:169;a:4:{i:0;s:343:"Querying SQL: SHOW FULL COLUMNS FROM `yupe_migrations`
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (42)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (890)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.5972991;}i:170;a:4:{i:0;s:338:"Querying SQL: SHOW CREATE TABLE `yupe_migrations`
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (42)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (890)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.6092401;}i:171;a:4:{i:0;s:400:"Saving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:yupe_migrations" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (42)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (890)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.6098001;}i:172;a:4:{i:0;s:352:"Saving "__tag__getMigrationHistory" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TaggingCacheBehavior.php (29)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (407)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.6286221;}i:173;a:4:{i:0;s:423:"Querying SQL: SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='user'
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (418)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.6584511;}i:174;a:4:{i:0;s:519:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC:a:1:{s:7:":module";s:4:"user";}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (418)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.6609819;}i:175;a:4:{i:0;s:338:"Querying SQL: select count(id) from yupe_migrations
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (418)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.6612511;}i:176;a:4:{i:0;s:324:"Saving "getMigrationHistory" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (426)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.6779611;}i:177;a:4:{i:0;s:361:"Для модуля user новых миграций не найдено
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (87)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (890)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)";i:1;s:4:"info";i:2;s:11:"application";i:3;d:1453814918.724864;}i:178;a:4:{i:0;s:437:"Для модуля page сначала будет установлена база модуля category как зависимость
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (853)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (802)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/install/controllers/DefaultController.php (936)";i:1;s:4:"info";i:2;s:11:"application";i:3;d:1453814918.7249229;}i:179;a:4:{i:0;s:389:"category->installDB() : Запрошена установка БД модуля Категории
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (838)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (802)";i:1;s:4:"info";i:2;s:11:"application";i:3;d:1453814918.7359869;}i:180;a:4:{i:0;s:351:"Saving "__tag__installedModules" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TaggingCacheBehavior.php (29)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (842)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.7361109;}i:181;a:4:{i:0;s:341:"Serving "__tag__installedModules" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.7768109;}i:182;a:4:{i:0;s:344:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.776854;}i:183;a:4:{i:0;s:352:"Saving "__tag__getMigrationHistory" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TaggingCacheBehavior.php (29)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (407)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.7769201;}i:184;a:4:{i:0;s:427:"Querying SQL: SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='category'
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (418)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.7974219;}i:185;a:4:{i:0;s:523:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC:a:1:{s:7:":module";s:8:"category";}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (418)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.8006589;}i:186;a:4:{i:0;s:338:"Querying SQL: select count(id) from yupe_migrations
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (418)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.80073;}i:187;a:4:{i:0;s:324:"Saving "getMigrationHistory" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (426)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.822113;}i:188;a:4:{i:0;s:365:"Для модуля category новых миграций не найдено
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (87)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (890)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (880)";i:1;s:4:"info";i:2;s:11:"application";i:3;d:1453814918.8497651;}i:189;a:4:{i:0;s:341:"Serving "__tag__installedModules" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.8686609;}i:190;a:4:{i:0;s:344:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.8687141;}i:191;a:4:{i:0;s:327:"Serving "getMigrationHistory" from cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.8687501;}i:192;a:4:{i:0;s:352:"Saving "__tag__getMigrationHistory" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/extensions/tagcache/TaggingCacheBehavior.php (29)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (407)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.8688459;}i:193;a:4:{i:0;s:423:"Querying SQL: SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='page'
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (418)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.887814;}i:194;a:4:{i:0;s:519:"Saving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=gidrodinamika:gidrodinamika:SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC:a:1:{s:7:":module";s:4:"page";}" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (418)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.8903241;}i:195;a:4:{i:0;s:338:"Querying SQL: select count(id) from yupe_migrations
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (418)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453814918.8904209;}i:196;a:4:{i:0;s:324:"Saving "getMigrationHistory" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (426)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (58)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453814918.9126289;}i:197;a:4:{i:0;s:361:"Для модуля page новых миграций не найдено
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Migrator.php (87)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (890)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (802)";i:1;s:4:"info";i:2;s:11:"application";i:3;d:1453814918.951983;}}}s:9:"profiling";a:3:{s:6:"memory";i:3167312;s:4:"time";d:3.5328171253204346;s:8:"messages";a:84:{i:0;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814915.82359;}i:1;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814915.8244071;}i:2;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.368551;}i:3;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.3694079;}i:4;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.4224091;}i:5;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.4231491;}i:6;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.482317;}i:7;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.4831519;}i:8;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.521472;}i:9;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.5223441;}i:10;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.6121371;}i:11;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.6128981;}i:12;a:4:{i:0;s:271:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.6673391;}i:13;a:4:{i:0;s:269:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.668695;}i:14;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.723176;}i:15;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.7240751;}i:16;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.782439;}i:17;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.7837341;}i:18;a:4:{i:0;s:269:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.836926;}i:19;a:4:{i:0;s:267:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.8377559;}i:20;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.8908851;}i:21;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.8916359;}i:22;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.94642;}i:23;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.947922;}i:24;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.0030091;}i:25;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.003839;}i:26;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.056653;}i:27;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.057471;}i:28;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.113642;}i:29;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.114507;}i:30;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.1557169;}i:31;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.156678;}i:32;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.2042191;}i:33;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.2050769;}i:34;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.259532;}i:35;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.2603979;}i:36;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.3186071;}i:37;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.3201771;}i:38;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.3750911;}i:39;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.3758149;}i:40;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.4306469;}i:41;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.431411;}i:42;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.488488;}i:43;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.4892299;}i:44;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.5411539;}i:45;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.5421281;}i:46;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.5976181;}i:47;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.5991659;}i:48;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.6556909;}i:49;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.6564441;}i:50;a:4:{i:0;s:268:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.7100141;}i:51;a:4:{i:0;s:266:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.7108369;}i:52;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.767159;}i:53;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.767971;}i:54;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.8231201;}i:55;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.8239779;}i:56;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.8781021;}i:57;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.8792419;}i:58;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.9350581;}i:59;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.9357159;}i:60;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.973047;}i:61;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.9738519;}i:62;a:4:{i:0;s:271:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.027535;}i:63;a:4:{i:0;s:269:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.0284791;}i:64;a:4:{i:0;s:270:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.082278;}i:65;a:4:{i:0;s:268:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.0837259;}i:66;a:4:{i:0;s:269:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.1463521;}i:67;a:4:{i:0;s:267:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.1471131;}i:68;a:4:{i:0;s:74:"begin:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `yupe_migrations`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.5973189;}i:69;a:4:{i:0;s:72:"end:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `yupe_migrations`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.5993061;}i:70;a:4:{i:0;s:69:"begin:system.db.CDbCommand.query(SHOW CREATE TABLE `yupe_migrations`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.609261;}i:71;a:4:{i:0;s:67:"end:system.db.CDbCommand.query(SHOW CREATE TABLE `yupe_migrations`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.609719;}i:72;a:4:{i:0;s:156:"begin:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='user')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.6598361;}i:73;a:4:{i:0;s:154:"end:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='user')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.6608789;}i:74;a:4:{i:0;s:71:"begin:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.661278;}i:75;a:4:{i:0;s:69:"end:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.661922;}i:76;a:4:{i:0;s:160:"begin:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='category')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.7994959;}i:77;a:4:{i:0;s:158:"end:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='category')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.800591;}i:78;a:4:{i:0;s:71:"begin:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.800741;}i:79;a:4:{i:0;s:69:"end:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8013511;}i:80;a:4:{i:0;s:156:"begin:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='page')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8893061;}i:81;a:4:{i:0;s:154:"end:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='page')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8902409;}i:82;a:4:{i:0;s:71:"begin:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8904369;}i:83;a:4:{i:0;s:69:"end:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8908639;}}}s:2:"db";a:2:{s:8:"messages";a:84:{i:0;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814915.82359;}i:1;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814915.8244071;}i:2;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.368551;}i:3;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.3694079;}i:4;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.4224091;}i:5;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.4231491;}i:6;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.482317;}i:7;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.4831519;}i:8;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.521472;}i:9;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.5223441;}i:10;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.6121371;}i:11;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.6128981;}i:12;a:4:{i:0;s:271:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.6673391;}i:13;a:4:{i:0;s:269:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.668695;}i:14;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.723176;}i:15;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.7240751;}i:16;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.782439;}i:17;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.7837341;}i:18;a:4:{i:0;s:269:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.836926;}i:19;a:4:{i:0;s:267:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.8377559;}i:20;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.8908851;}i:21;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.8916359;}i:22;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.94642;}i:23;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814916.947922;}i:24;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.0030091;}i:25;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.003839;}i:26;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.056653;}i:27;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.057471;}i:28;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.113642;}i:29;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.114507;}i:30;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.1557169;}i:31;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.156678;}i:32;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.2042191;}i:33;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.2050769;}i:34;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.259532;}i:35;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.2603979;}i:36;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.3186071;}i:37;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.3201771;}i:38;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.3750911;}i:39;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.3758149;}i:40;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.4306469;}i:41;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.431411;}i:42;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.488488;}i:43;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.4892299;}i:44;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.5411539;}i:45;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.5421281;}i:46;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.5976181;}i:47;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.5991659;}i:48;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.6556909;}i:49;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.6564441;}i:50;a:4:{i:0;s:268:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.7100141;}i:51;a:4:{i:0;s:266:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.7108369;}i:52;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.767159;}i:53;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.767971;}i:54;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.8231201;}i:55;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.8239779;}i:56;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.8781021;}i:57;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.8792419;}i:58;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.9350581;}i:59;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.9357159;}i:60;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.973047;}i:61;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814917.9738519;}i:62;a:4:{i:0;s:271:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.027535;}i:63;a:4:{i:0;s:269:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.0284791;}i:64;a:4:{i:0;s:270:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.082278;}i:65;a:4:{i:0;s:268:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.0837259;}i:66;a:4:{i:0;s:269:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.1463521;}i:67;a:4:{i:0;s:267:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.1471131;}i:68;a:4:{i:0;s:74:"begin:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `yupe_migrations`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.5973189;}i:69;a:4:{i:0;s:72:"end:system.db.CDbCommand.query(SHOW FULL COLUMNS FROM `yupe_migrations`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.5993061;}i:70;a:4:{i:0;s:69:"begin:system.db.CDbCommand.query(SHOW CREATE TABLE `yupe_migrations`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.609261;}i:71;a:4:{i:0;s:67:"end:system.db.CDbCommand.query(SHOW CREATE TABLE `yupe_migrations`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.609719;}i:72;a:4:{i:0;s:156:"begin:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='user')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.6598361;}i:73;a:4:{i:0;s:154:"end:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='user')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.6608789;}i:74;a:4:{i:0;s:71:"begin:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.661278;}i:75;a:4:{i:0;s:69:"end:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.661922;}i:76;a:4:{i:0;s:160:"begin:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='category')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.7994959;}i:77;a:4:{i:0;s:158:"end:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='category')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.800591;}i:78;a:4:{i:0;s:71:"begin:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.800741;}i:79;a:4:{i:0;s:69:"end:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8013511;}i:80;a:4:{i:0;s:156:"begin:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='page')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8893061;}i:81;a:4:{i:0;s:154:"end:system.db.CDbCommand.query(SELECT `version`, `apply_time`
+FROM `yupe_migrations`
+WHERE module = :module
+ORDER BY `id` DESC. Bound with :module='page')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8902409;}i:82;a:4:{i:0;s:71:"begin:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8904369;}i:83;a:4:{i:0;s:69:"end:system.db.CDbCommand.query(select count(id) from yupe_migrations)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453814918.8908639;}}s:11:"connections";a:1:{s:2:"db";a:4:{s:5:"class";s:13:"CDbConnection";s:6:"driver";s:5:"mysql";s:6:"server";s:6:"5.7.10";s:4:"info";s:137:"Uptime: 4027  Threads: 1  Questions: 3808  Slow queries: 0  Opens: 1263  Flush tables: 1  Open tables: 205  Queries per second avg: 0.945";}}}s:7:"summary";a:7:{s:3:"tag";s:13:"56a77483dce85";s:3:"url";s:64:"http://gidrodinamika.app/install/default/moduleinstall?name=page";s:4:"ajax";b:1;s:6:"method";s:3:"GET";s:4:"code";i:200;s:2:"ip";s:12:"192.168.10.1";s:4:"time";i:1453814919;}}
