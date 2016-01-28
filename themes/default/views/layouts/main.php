@@ -17,9 +17,11 @@
     ); ?>
 
     <?php
+    /*
     Yii::app()->getClientScript()->registerCssFile($this->mainAssets . '/css/main.css');
     Yii::app()->getClientScript()->registerCssFile($this->mainAssets . '/css/flags.css');
     Yii::app()->getClientScript()->registerCssFile($this->mainAssets . '/css/yupe.css');
+    */
     Yii::app()->getClientScript()->registerScriptFile($this->mainAssets . '/js/blog.js');
     Yii::app()->getClientScript()->registerScriptFile($this->mainAssets . '/js/bootstrap-notify.js');
     Yii::app()->getClientScript()->registerScriptFile($this->mainAssets . '/js/jquery.li-translit.js');

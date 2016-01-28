@@ -20,3 +20,4 @@ protected/config/db.php
 !*.dist.yml
 /.vagrant/
 Vagrantfile
+protected/runtime/
