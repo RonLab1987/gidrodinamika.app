@@ -25,6 +25,11 @@ class SiteController extends FrontController
     {
         $this->render('index');
     }
+    
+    public function actionHello()
+    {
+        $this->render('hello');
+    }
 
     /**
      * Отображение для ошибок:
