@@ -12,6 +12,7 @@ composer.phar
 nbproject/
 /.idea/
 protected/config/db.php
+/protected/runtime/debug/*
 */_log
 /tests/tests/_log/
 *.*~
@@ -20,3 +21,4 @@ protected/config/db.php
 !*.dist.yml
 /.vagrant/
 Vagrantfile
+

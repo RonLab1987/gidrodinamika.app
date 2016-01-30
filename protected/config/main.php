@@ -35,7 +35,8 @@ return [
     'sourceLanguage' => 'en',
     // Default theme
     'theme' => 'default',
-    'layout' => 'yupe',
+    'layout' => 'default',
+    //'layout' => 'default',
     'charset' => 'UTF-8',
     'controllerNamespace' => 'application\controllers',
     'preload' => defined('YII_DEBUG') && YII_DEBUG ? ['debug'] : [],
