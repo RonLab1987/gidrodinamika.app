@@ -31,5 +31,9 @@ class Controller extends BaseController
      * Contains data for "CMenu" widget (provides view for menu on the site)
      */
     public $menu = [];
+    
+    
 
 }
+
+

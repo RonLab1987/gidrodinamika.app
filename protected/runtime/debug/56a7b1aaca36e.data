@@ -1,0 +1,73 @@
+a:6:{s:6:"config";a:4:{s:10:"phpVersion";s:30:"5.6.15-1+deb.sury.org~trusty+1";s:10:"yiiVersion";s:6:"1.1.16";s:11:"application";a:4:{s:3:"yii";s:6:"1.1.16";s:4:"name";s:5:"Yupe!";s:8:"timezone";s:3:"UTC";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:30:"5.6.15-1+deb.sury.org~trusty+1";s:6:"xdebug";b:1;s:3:"apc";b:1;s:8:"memcache";b:0;}}s:7:"request";a:13:{s:7:"flashes";a:0:{}s:10:"statusCode";i:500;s:14:"requestHeaders";a:7:{s:4:"Host";s:17:"gidrodinamika.app";s:10:"Connection";s:10:"keep-alive";s:6:"Accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:25:"Upgrade-Insecure-Requests";s:1:"1";s:10:"User-Agent";s:110:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36";s:15:"Accept-Encoding";s:19:"gzip, deflate, sdch";s:15:"Accept-Language";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";}s:15:"responseHeaders";a:5:{s:10:"Set-Cookie";a:2:{i:0;s:54:"PHPSESSID=jhpftpq9q3n4tqnogjjj1e8ks2; path=/; HttpOnly";i:1;s:76:"language=37cacfb988697d736c9e1285fdcd3a416918e263s%3A2%3A%22ru%22%3B; path=/";}s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:12:"Content-type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:10:"site/index";s:6:"action";s:53:"application\controllers\SiteController::actionIndex()";s:12:"actionParams";a:0:{}s:6:"SERVER";a:31:{s:4:"USER";s:7:"vagrant";s:4:"HOME";s:13:"/home/vagrant";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:12:"QUERY_STRING";s:0:"";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"CONTENT_TYPE";s:0:"";s:14:"CONTENT_LENGTH";s:0:"";s:15:"SCRIPT_FILENAME";s:56:"/home/vagrant/project/gidrodinamika.app/public/index.php";s:11:"SCRIPT_NAME";s:10:"/index.php";s:11:"REQUEST_URI";s:1:"/";s:12:"DOCUMENT_URI";s:10:"/index.php";s:13:"DOCUMENT_ROOT";s:46:"/home/vagrant/project/gidrodinamika.app/public";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_SOFTWARE";s:11:"nginx/1.8.0";s:11:"REMOTE_ADDR";s:12:"192.168.10.1";s:11:"REMOTE_PORT";s:5:"55919";s:11:"SERVER_ADDR";s:13:"192.168.10.10";s:11:"SERVER_PORT";s:2:"80";s:11:"SERVER_NAME";s:17:"gidrodinamika.app";s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:17:"gidrodinamika.app";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:110:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1453830570.219079;s:12:"REQUEST_TIME";i:1453830570;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:0:{}s:5:"FILES";a:0:{}s:7:"SESSION";a:1:{s:40:"2cf64f2f15c41703983c04b356617c84language";s:2:"ru";}}s:3:"log";a:1:{s:8:"messages";a:22:{i:0;a:4:{i:0;s:221:"Loading "urlManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.590776;}i:1;a:4:{i:0;s:359:"Loading "yupe" module
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LangUrlManager.php (85)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LangUrlManager.php (39)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453830570.6221011;}i:2;a:4:{i:0;s:317:"Loading "db" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1031)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.6896591;}i:3;a:4:{i:0;s:328:"Loading "cache" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LangUrlManager.php (59)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.7267361;}i:4;a:4:{i:0;s:330:"Saving "Yii.CUrlManager.rules" to cache
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LangUrlManager.php (59)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453830570.7802329;}i:5;a:4:{i:0;s:102:"Loading "debug" application component
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.8026891;}i:6;a:4:{i:0;s:330:"Loading "log" application component
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.8570089;}i:7;a:4:{i:0;s:315:"Loading "request" application component
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/vagrant/project/gidrodinamika.app/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.8899851;}i:8;a:4:{i:0;s:389:"Loading "securityManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.9404869;}i:9;a:4:{i:0;s:330:"Loading "user" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.9514251;}i:10;a:4:{i:0;s:333:"Loading "session" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.964704;}i:11;a:4:{i:0;s:340:"Loading "statePersister" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (116)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830570.9823821;}i:12;a:4:{i:0;s:223:"Loading "eventManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/controllers/FrontController.php (34)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830571.119314;}i:13;a:4:{i:0;s:223:"Loading "themeManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/controllers/FrontController.php (40)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830571.19153;}i:14;a:4:{i:0;s:315:"Loading "assetManager" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/Theme.php (29)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/controllers/FrontController.php (40)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830571.2262969;}i:15;a:4:{i:0;s:296:"Loading "bootstrap" application component
+in /home/vagrant/project/gidrodinamika.app/themes/default/bootstrap.php (5)
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/controllers/FrontController.php (45)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830572.3516331;}i:16;a:4:{i:0;s:332:"Loading "clientScript" application component
+in /home/vagrant/project/gidrodinamika.app/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/vagrant/project/gidrodinamika.app/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/vagrant/project/gidrodinamika.app/themes/default/bootstrap.php (5)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830572.3694811;}i:17;a:4:{i:0;s:198:"Loading "viewRenderer" application component
+in /home/vagrant/project/gidrodinamika.app/protected/controllers/SiteController.php (26)
+in /home/vagrant/project/gidrodinamika.app/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830594.0931211;}i:18;a:4:{i:0;s:330:"Loading "widgetFactory" application component
+in /home/vagrant/project/gidrodinamika.app/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/project/gidrodinamika.app/themes/default/views/site/ru/index.php (3)
+in /home/vagrant/project/gidrodinamika.app/protected/controllers/SiteController.php (26)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830594.4546881;}i:19;a:4:{i:0;s:305:"Loading "coreMessages" application component
+in /home/vagrant/project/gidrodinamika.app/themes/default/views/layouts/yupe.php (66)
+in /home/vagrant/project/gidrodinamika.app/themes/default/views/layouts/yupe.php (66)
+in /home/vagrant/project/gidrodinamika.app/protected/controllers/SiteController.php (26)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830594.6306901;}i:20;a:4:{i:0;s:2244:"exception 'CException' with message 'В классе CWebUser и его поведениях не найден метод или замыкание с именем "isAuthenticated".' in /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/vagrant/project/gidrodinamika.app/themes/default/views/layouts/yupe.php(66): CComponent->__call('isAuthenticated', Array)
+#1 /home/vagrant/project/gidrodinamika.app/themes/default/views/layouts/yupe.php(66): CWebUser->isAuthenticated()
+#2 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/web/CBaseController.php(126): require('/home/vagrant/p...')
+#3 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/vagrant/p...', Array, true)
+#4 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/web/CController.php(784): CBaseController->renderFile('/home/vagrant/p...', Array, true)
+#5 /home/vagrant/project/gidrodinamika.app/protected/controllers/SiteController.php(26): CController->render('index')
+#6 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): application\controllers\SiteController->actionIndex()
+#7 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#11 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#12 /home/vagrant/project/gidrodinamika.app/vendor/yiisoft/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /home/vagrant/project/gidrodinamika.app/public/index.php(39): CApplication->run()
+#14 {main}
+REQUEST_URI=/
+---";i:1;s:5:"error";i:2;s:20:"exception.CException";i:3;d:1453830594.666971;}i:21;a:4:{i:0;s:44:"Loading "errorHandler" application component";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453830594.6748309;}}}s:9:"profiling";a:3:{s:6:"memory";i:3582536;s:4:"time";d:24.90217113494873;s:8:"messages";a:0:{}}s:2:"db";a:2:{s:8:"messages";a:0:{}s:11:"connections";a:0:{}}s:7:"summary";a:7:{s:3:"tag";s:13:"56a7b1aaca36e";s:3:"url";s:25:"http://gidrodinamika.app/";s:4:"ajax";b:0;s:6:"method";s:3:"GET";s:4:"code";i:500;s:2:"ip";s:12:"192.168.10.1";s:4:"time";i:1453830595;}}
