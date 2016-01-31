@@ -22,3 +22,5 @@ protected/config/db.php
 /.vagrant/
 Vagrantfile
 
+*.data
+protected/runtime/debug/index.data
