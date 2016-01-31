@@ -134,6 +134,8 @@ return [
             'useStrictParsing' => true,
             'rules' => [ // Main rules
                 '/' => '/site/index',
+                'hello' => '/site/hello',
+                'test'=>'/gidrodinamika/test',
                 // For correct work of installer
                 '/install/default/<action:\w+>' => '/install/default/<action>',
                 '/backend' => '/yupe/backend/index',

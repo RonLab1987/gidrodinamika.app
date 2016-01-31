@@ -32,7 +32,11 @@ class Controller extends BaseController
      */
     public $menu = [];
     
-    
+    public function actionTest()
+    {
+         echo 'Это тест url aliases';
+    }
+
 
 }
 
