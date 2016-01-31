@@ -12,9 +12,7 @@ composer.phar
 nbproject/
 /.idea/
 protected/config/db.php
-/protected/runtime/debug/*
-protected/runtime/debug/index.data
-/protected/runtime/debug/index.data
+/protected/runtime/
 */_log
 /tests/tests/_log/
 *.*~
