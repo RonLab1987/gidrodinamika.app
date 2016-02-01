@@ -6,6 +6,12 @@ use yupe\components\controllers\FrontController;
 
 class GidrodinamikaController extends FrontController
 {
+    
+   public function actionIndex()
+    {
+       $this->render('index');
+    }
+    
    public function actionTest()
     {
        echo 'Hy from GD Controller';
