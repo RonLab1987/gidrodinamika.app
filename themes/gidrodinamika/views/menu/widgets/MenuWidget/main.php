@@ -1,5 +1,9 @@
 <?php
+
+
 Yii::import('application.modules.menu.components.YMenu');
+
+       
 $this->widget(
     'bootstrap.widgets.TbNavbar',
     [
@@ -13,7 +17,7 @@ $this->widget(
                 'title' => Yii::app()->name,
             ]
         ),
-        'brandUrl' => Yii::app()->hasModule('homepage') ? ['/homepage/hp/index'] : ['/site/index'],
+        'brandUrl' => Yii::app()->hasModule('homepage') ? ['/homepage/hp/index'] : ['/gidrodinamika/index'],
         'items' => [
             CMap::mergeArray(
                 [
@@ -34,3 +38,12 @@ $this->widget(
         ],
     ]
 );
+
+/*
+$this->widget(
+    'booster.widgets.TbMenu',
+    array(
+        'type' => 'list',
+        'items' => $this->params['items'],       
+    )
+);*/

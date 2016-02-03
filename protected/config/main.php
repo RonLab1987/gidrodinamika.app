@@ -132,8 +132,12 @@ return [
             'showScriptName' => false,
             'cacheID' => 'cache',
             'useStrictParsing' => true,
+            
+            /*
+             * Url routing 
+             */
             'rules' => [ // Main rules
-                '/' => '/site/index',
+                '/' => '/gidrodinamika/index',
                 'hello' => '/site/hello',
                 'test'=>'/gidrodinamika/test',
                 // For correct work of installer
@@ -148,6 +152,7 @@ return [
                 '/site/<action:\w+>' => 'site/<action>',
                 '/debug/<controller:\w+>/<action:\w+>' => 'debug/<controller>/<action>'
             ]
+            
         ],
         /**
          * Configuration of CHttpRequest component for secure from CSRF attacks
