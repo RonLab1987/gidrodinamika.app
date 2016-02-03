@@ -67,6 +67,8 @@ class ProductController extends FrontController
         if (null === $product) {
             throw new CHttpException(404, Yii::t('StoreModule.catalog', 'Product was not found!'));
         }
+        
+        
 
         $this->render('view', ['product' => $product]);
     }

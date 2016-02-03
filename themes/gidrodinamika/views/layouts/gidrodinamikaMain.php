@@ -41,10 +41,10 @@
 <body>
 
 <?php \yupe\components\TemplateEvent::fire(GidrodinamikaThemeEvents::BODY_START);?>
-    <section class="visible-xs">
+    <section class="">
         <?php $this->widget(
                     'application.modules.menu.widgets.MenuWidget', array(
-                        'name'         => 'gd-top-menu',
+                        'name'         => 'top-menu',
                         'params'       => array('hideEmptyItems' => false),
                         'layoutParams' => array(
                             'htmlOptions' => array(
@@ -58,9 +58,9 @@
     <section>
         <div class="container-fluid">
             <div class="col-sm-2 col-md-2 col-lg-2 hidden-xs">
-              <?php $this->widget(
+              <?php /*$this->widget(
                     'application.modules.menu.widgets.MenuWidget', array(
-                        'name'         => 'gd-top-menu',
+                        'name'         => 'top-menu',
                         'layout'=>'sidebar',
                         'params'       => array('hideEmptyItems' => false),
                         'layoutParams' => array(
@@ -70,7 +70,7 @@
                             )
                         ),
                     )
-                ); ?>
+                ); */?>
             </div>
             <div class="col-sm-10 col-md-10 col-lg-10 col-xs-12">
                 <!-- flashMessages -->

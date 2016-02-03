@@ -12,12 +12,19 @@ Yii::app()->getClientScript()->registerScriptFile($mainAssets . '/js/jquery.simp
 Yii::app()->getClientScript()->registerCssFile(Yii::app()->getTheme()->getAssetsUrl() . '/css/store-frontend.css');
 Yii::app()->getClientScript()->registerScriptFile(Yii::app()->getTheme()->getAssetsUrl() . '/js/store.js');
 
+  
+  
+
 $this->breadcrumbs = array_merge(
     [Yii::t("StoreModule.store", 'Catalog') => ['/store/product/index']],
     $product->category ? $product->category->getBreadcrumbs(true) : [],
     [CHtml::encode($product->name)]
 );
+
+
 ?>
+
+
 <div class="row" xmlns="http://www.w3.org/1999/html">
     <div class="col-sm-12">
         <div class="row">

@@ -138,6 +138,15 @@ class Product extends yupe\models\YModel implements ICommentable
                 'store\components\validators\NumberValidator',
             ],
             ['name, meta_keywords, meta_title, meta_description, image', 'length', 'max' => 250],
+            
+            /*
+             *  начало "костыля"
+             *  Без дефолтных значений полей товар не сохранялся.
+             */
+            ['average_price, purchase_price, recommended_price', 'default', 'value' => null],
+            
+            //конец костыля.
+            
             ['discount_price, discount', 'default', 'value' => null],
             ['sku', 'length', 'max' => 100],
             ['slug', 'length', 'max' => 150],

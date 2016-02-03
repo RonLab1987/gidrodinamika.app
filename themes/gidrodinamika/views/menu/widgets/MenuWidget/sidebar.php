@@ -1,8 +1,6 @@
 <?php
 
-
 Yii::import('application.modules.menu.components.YMenu');
-
 
 $this->widget(
     'booster.widgets.TbMenu',
@@ -11,3 +9,4 @@ $this->widget(
         'items' => $this->params['items'],       
     )
 );
+
